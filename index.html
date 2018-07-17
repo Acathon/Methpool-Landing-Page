@@ -1,0 +1,427 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="acathon">
+  <meta name="description" content="MΞTHPool Lab for High profitability mining pools. 0% Pool Fee. PPLNS reward system. For Miners, By Miners. Tunisian Mining Pools.">
+  <meta name="keywords" content="erc20, blockchain,hodl, pool, mining, cryptocurrency, Tunisia, first pool, ethash, daggerhashimoto, masternodes, ethereum, callisto, expanse, ubiq, etherzero, eos classic, dubaicoin, mn, miner, miners, to mine, to the moon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/styles/cryptofont.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
+  <title>MΞthpool Mining Homepage</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><span class="logo-custom">Ξ</span> <!--METHPOOL--></a>
+      <a href="#" data-target="methpool-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://www.whattomine.com/coins?utf8=%E2%9C%93&adapt_q_280x=0&adapt_q_380=0&adapt_q_fury=0&adapt_q_470=1&adapt_470=true&adapt_q_480=1&adapt_q_570=1&adapt_q_580=3&adapt_q_vega56=0&adapt_q_vega64=0&adapt_q_750Ti=0&adapt_q_1050Ti=0&adapt_q_10606=1&adapt_10606=true&adapt_q_1070=0&adapt_q_1070Ti=0&adapt_q_1080=0&adapt_q_1080Ti=0&eth=true&factor%5Beth_hr%5D=48.50&factor%5Beth_p%5D=210.00&factor%5Bgro_hr%5D=35.00&factor%5Bgro_p%5D=210.00&factor%5Bphi_hr%5D=22.00&factor%5Bphi_p%5D=210.00&factor%5Bcnh_hr%5D=1050.00&factor%5Bcnh_p%5D=170.00&factor%5Bcn7_hr%5D=1160.00&factor%5Bcn7_p%5D=170.00&factor%5Beq_hr%5D=530.00&factor%5Beq_p%5D=200.00&factor%5Blrev2_hr%5D=48300.00&factor%5Blrev2_p%5D=220.00&factor%5Bns_hr%5D=1300.00&factor%5Bns_p%5D=230.00&factor%5Btt10_hr%5D=18.50&factor%5Btt10_p%5D=210.00&factor%5Bx16r_hr%5D=9.50&factor%5Bx16r_p%5D=170.00&factor%5Bl2z_hr%5D=1.50&factor%5Bl2z_p%5D=185.00&factor%5Bphi2_hr%5D=2.30&factor%5Bphi2_p%5D=90.00&factor%5Bxn_hr%5D=2.10&factor%5Bxn_p%5D=90.00&factor%5Bcost%5D=0.1&sort=Profitability24&volume=0&revenue=24h&factor%5Bexchanges%5D%5B%5D=&factor%5Bexchanges%5D%5B%5D=binance&factor%5Bexchanges%5D%5B%5D=bitfinex&factor%5Bexchanges%5D%5B%5D=bittrex&factor%5Bexchanges%5D%5B%5D=cryptobridge&factor%5Bexchanges%5D%5B%5D=cryptopia&factor%5Bexchanges%5D%5B%5D=hitbtc&factor%5Bexchanges%5D%5B%5D=poloniex&factor%5Bexchanges%5D%5B%5D=yobit&dataset=Main&commit=Calculate"
+            target="_blank">COINS CALCULATOR</a></li>
+        <li><a href="https://eosc.methpool.com/#/about">CONTACT US</a></li>
+        <!--<li><a class="waves-effect waves-light btn nav-custom-btn">LOG IN</a></li>-->
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="methpool-mobile">
+    <li><a href="https://www.whattomine.com/coins?utf8=%E2%9C%93&adapt_q_280x=0&adapt_q_380=0&adapt_q_fury=0&adapt_q_470=1&adapt_470=true&adapt_q_480=1&adapt_q_570=1&adapt_q_580=3&adapt_q_vega56=0&adapt_q_vega64=0&adapt_q_750Ti=0&adapt_q_1050Ti=0&adapt_q_10606=1&adapt_10606=true&adapt_q_1070=0&adapt_q_1070Ti=0&adapt_q_1080=0&adapt_q_1080Ti=0&eth=true&factor%5Beth_hr%5D=48.50&factor%5Beth_p%5D=210.00&factor%5Bgro_hr%5D=35.00&factor%5Bgro_p%5D=210.00&factor%5Bphi_hr%5D=22.00&factor%5Bphi_p%5D=210.00&factor%5Bcnh_hr%5D=1050.00&factor%5Bcnh_p%5D=170.00&factor%5Bcn7_hr%5D=1160.00&factor%5Bcn7_p%5D=170.00&factor%5Beq_hr%5D=530.00&factor%5Beq_p%5D=200.00&factor%5Blrev2_hr%5D=48300.00&factor%5Blrev2_p%5D=220.00&factor%5Bns_hr%5D=1300.00&factor%5Bns_p%5D=230.00&factor%5Btt10_hr%5D=18.50&factor%5Btt10_p%5D=210.00&factor%5Bx16r_hr%5D=9.50&factor%5Bx16r_p%5D=170.00&factor%5Bl2z_hr%5D=1.50&factor%5Bl2z_p%5D=185.00&factor%5Bphi2_hr%5D=2.30&factor%5Bphi2_p%5D=90.00&factor%5Bxn_hr%5D=2.10&factor%5Bxn_p%5D=90.00&factor%5Bcost%5D=0.1&sort=Profitability24&volume=0&revenue=24h&factor%5Bexchanges%5D%5B%5D=&factor%5Bexchanges%5D%5B%5D=binance&factor%5Bexchanges%5D%5B%5D=bitfinex&factor%5Bexchanges%5D%5B%5D=bittrex&factor%5Bexchanges%5D%5B%5D=cryptobridge&factor%5Bexchanges%5D%5B%5D=cryptopia&factor%5Bexchanges%5D%5B%5D=hitbtc&factor%5Bexchanges%5D%5B%5D=poloniex&factor%5Bexchanges%5D%5B%5D=yobit&dataset=Main&commit=Calculate"
+        target="_blank">COINS CALCULATOR</a></li>
+    <li><a href="https://eosc.methpool.com/#/about">CONTACT US</a></li>
+    <!--<li><a class="waves-effect waves-light btn nav-custom-btn">LOG IN</a></li>-->
+  </ul>
+  <!--<div class="container">
+            <div class="row">
+                <div class="col s12 center black-text">
+                    <!--<h3>MΞTHPOOL MINING HUB</h3>
+                </div>
+            </div>
+        </div>-->
+  <div class="home">
+    <h1 class="header center white-text">MΞTHPOOL MINING LAB</h1>
+    <div class="row center">
+      <h5 class="header col s12 light flow-text">For Miners, By Miners. <i class="fa fa-heart faa-pulse animated" style="color:#c0392b"></i> in Tunisia.</h5>
+    </div>
+    <div class="row center">
+      <a href="#mining-labs" id="download-button" class="btn-large waves-effect waves-light custom-color custom-btn">Get Started</a>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="center-align">Features</h2>
+    <p class="center-align" style="font-size:19px">
+      "With Methpool, it's easy to earn some reasonable profits with the help of useful tricks on our all launched pools which are managed by a bunch of miners"
+    </p>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnFSURBVHhe7VnZT5vZFaeq1EVVpUqV+tI+VG2lVlXfuqh9rvrQP2DeqlbtQ9OJbfadhEAIWwyYLYDB9ueFzZg1YMAQdmbCmkCAYc/MkAESyJA2mSahM+H0nPvdD2y4GIPdBlof6Sfb3z33bN859557HRKkIAUpSEEKUpCCFKQgBSlIgaDcyxU/ylVLUTkq6TZiIVdt2iHkqKVl/GyhsZsa8w85+/8O5arNv0LnWnPUpj38BG9gPCpTm/Zd0y/59ItLBZqCr6JT2lyV9IacK4q27nWYOmDx7jhsLc/CP7eWGej7wvtjQGPEwwPxBWZGFsng4i4WZccYvpmjMvWSM/lh5r1BRw989ngZ/vXsoVe82FwC4s0PN8uBUEnd2ijrN7Shhp9RQFDmqFw6LGPW8fsABitRFyZ9n6t++3TtWt1X0PBBMlKfUL23PjctdNYbPpmdhrLEKqVk1k8sH5X0OeoswkB8i5vx9ggNyiej9InVezsfzQsd9AU0F2UwB3WhZmiraIelsQnY+XgeXm2vsPGlkXFo1TtBpzEzPlpQ8941/oCb8t+nPJXhF1TzlMJnefOH8WhmGgrCLZCrkWDtwZSQh/B4aQZsmfVKRjxGjGC5/IOtPyrTCn5Wa9Xm30MIfImb+p8hpe4HHb1CQ8+CAfsd5pg9t0k4roAW1PqCFiUIx2EIs+Qn3NzAEgmmWi2Osfm04PkKWhhvxVQyB54szQp5FBBvRXIt453oHIbXT1dhe2UOJl3DYEqxK0HYwYz6NTc7cIQBuEoKaDsTGecP2o0dzPihxpMzaxG3VOKVrts9ntO64bK4lCBs5V4yf5ebHhjC9HeRcNrT3RUHAvPvyU458puF4x7YeQhG/rY35meOjHeaO+UgqCQHNz0whELXSPDW8twRpf6CZJJs2hVE44fRU9XN+Cc6h46MUXmWxFWyrlMXZvgxN99/wgx4SUo/exK4+ldAMkk27Qii8cO41zXM+O9UdgnHe6vlAGHZxnPz/ScSSBApDAROI18pGaehXThOZUrjmAX13Hz/6TQGngWnkU8NEvG2ljuF4x9N3ZcDoJL6ufn+Ey4qz0ko7ccipf6AZJLsokircPww7ne/x/iPKwElAIghbr7/hAeTRRK6hfuuSKk/IJkkm1Z30fhh0IGK+O+29AvHl7Gl5gHo5Ob7T0oXuDoxKVTqD1bGJ5nBPm2DiBptI+OneaLx8Y4hHgCTnpvvP2EJpJPQwboeoVJ/oLTDvrTYf3+0AHl4eKId4yU2PyKehkKlZTb+gZvvP2EG/I6EVmbVC5X6A1uGgxnsS3b14wsg3uN2AOopKEDI87pIZfk2N99/yo2wfx2D8IxObnQ6Eyk/C9Y/eMAcKo62HftGFTxdnYPCCCs7PdK8IzzYJTYU3WbyApr+CqFgdhdA7eYR5WcEvUmSSd2daFzBKzz4VGU3MN4OSXweGXMOsnFdqOW59m/W73CzA0fUWtIZnK7B6BQmMuI0oHRFWZCnMbO7QxEPgQ46LWVtzDl9UjU7FbqP7366yg5SlBnEk6sy/pmbHHjC7qqUlNh1eH7HlHM35FTAuXV5TcxgOsUJeRCU9soaQaDTKGWDO4+yLe5DJS3pVJbfcJMDS7SwYBCekiLRYcRX0FyScSvWBs/XF4U8hDoMNOPDJkl5w+a0OnabpPDMDIyAlOaAxppRKI63v+JB+Jx2LrrD5Kb7T3Xv1H0Z20tNjkZ6wZRopD26Bnc32BfQHJpLMvJDpTcT2NDs7ni+VQUr2Nf33KiBzTg9zMVUgCHSwoJAK/0dPPQ8/vghzC58AoOTmwz9Y+tQVdJHPPJFq8p0j26duQtnJ/oDBE9Xk0woQpss3+Lkh1v2FvBwIjJeBDrI0Bx3GQRLfCWs9Q/DLrbFu9vL8HpxGl40uWAn2Qifxuv3sRVfDq5II+jU8kVpcYId2tpm9wOgwOmcg6LYGvafBe4Ir3AHiz7TnSFdRbO653+A3Iyz7F3vvA3J812QbuC1ialJzYy3cwKN9dViw8PTON3oYDJI1s14TG98lodwRhjZ23Z3WoTFmHIwhZr29VsKu6Hv7iOPIPSNPAJzfpfMQ1BJtT6XBEUL3/ofMXpPaHKOxrSXWlYNUXebIH6mHa4udDHcqMKtSW48oBjrebihDzbmH8BLdJiwgfv1UEMvG2NGhKLzNY3780kWySTZSnBu4edYVIXQcXdsIXoiDZBPchH4xqGjY94jCISWhinQhVl5Nkgl3MXjSasx/pSOknwCZKRZIa67ASLHmvYR/+AgCClDTriZViU76AXEkzLsdHPe6SGTdGSk8UAhqsJMsBpbLnTeHSvIYwk1sjm6MAs0O+4dCUKHawEDbP6C3RQdt0Nc+5P0NVw0MhG7JEwbbX5zpdYOUaMHRnoYPNUGVxZc+w6l9rdBZokdtEk2yAk3M2iv2CCztA5SB9r2+WhO7P1WoUzSRTq1MXJW0dvtjjDA1gllsY2g8qE5eRiEzu7FI0Go0vezLMC1zMRdPiDe5MwQAyG1qBqihxuFRrojerwZEtxKwjtcjDdqolkoyx2km2xQ7DFivX8Yd3I2tGGwiL/kqgMGJjY8AuDqWWJjGIBl7rZMOaHmn+PWxvb27CRM9/Z6oVHeQE7FTbdBIjp45QPMinkZ9J2exU61+uT4YZAtWUny1lekMcHyCSVBmaLHzCN+m2UQ6jumoKFzGlp756EXF0V6ThnOXQ8JydKUf09pbNKzK9mCJDLkbSL6/Ua4kSVvmcW4QK6dkAl9UXIWlGW0sAAoaHRNywFAMOfZSq8xD9ODjIxKiBw9OeW9YXnz+H5+aXNGOMdnoG0Z6fICacPFUeS4AloUia8oodYjAASPAODW9hf6oY21+FTvJ4GcFDlP8DsAiCi0kWwlm71tk0+wDIiHFkN356uq5Ot0xLrc1qpNH9KDJLtdqPA8Islex5wo1RhhRZUHq254qNbBWlghbMeWKo6KgTtdSM5l6bf0IzvRiuklVnYugbZmJ8hZMKIq8giAeyA8HObID7c+K0tusLNuEHvjAnqYUlEjVnSOcU1fwxxqVpcKA0BQnGa1LiIcHCGG+NsOoZLzjIQW+QwiqSqEzo+pCpUArHN3jxK2ulvEFD0ot7iZqTbIuI7l4KbovD6LQZu5g95BtX4csQsDZFK2PmWSu9Lz+ixq5OC3CIVq0zNLqEGu9eNIYY4YbYDLQwct51/7LPs4j88uD1ZD+MhBBnB3Tk+KgEv9VqbgRoqZwV3peX12qU++PwhIANyVXCT4HQDcBjdIQJjDM9IXAWQzD8Dxq/xJxM79PIoXFt5W+ZOIVkgehPUjgs8/1sn2gF55BylIQfo/opCQfwNECFzJczIr4AAAAABJRU5ErkJggg==" height="64" width="64">
+                            </h2>
+            <h5 class="center">Best Miners Community</h5>
+            <p class="light">
+              Methpool is managed by a bunch of enthusiast miners. You can join Discord and Facebook to get latest news and tricks about cryptocurrencies.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVaSURBVHhe7VtbiBtVGF61iIoUUVCKKBRUEHxQ0Zc+iG8q4mMfBK2XCq0Wu9pKd7tmN4257iS7yeayqaYk2Q3uTPLgQ9/ESqzWLtvNZZK9JRMXtKWiSGlVLC1t93j+eGY7Oz1zMmkxmZndDz7IzpwzM9+X85/55symZwMb6D5GM4tbyMf1h6RQe56LVX6zZ6TNZNP6gT2f35TiJdETFpF7TMyTzesHWHx/SpAQGDDgmUX+w9VXyS7rI5FtPJbk6xdlAw5iAxz+4p92hG4nTawLhNBtWPi3IF5pANAdEadIM+sixdfflsWrDfjUO7viHV94hjS1HiYnf3oQ1/45LQOAn42Wz5Lm1gMWP6UUTzMA6I1UvKSLdZDma6+oxWsZYBsuXnXG5h4hXc2PaG7+3pRQ/1mvAUBXqDRPupsf+JYXpIkHahkA2WA4Ju4mhzAvIO5iA67SxAO1DAAOccVLpo7JctylCZfJMgBo6pgsx10WWxlg2pisjLsstjIAeChQMldMhribFKRjNMFq6jEAaKqYrI67LOo1wDQxmRZ3WdRrANAUMZkWd1lsxwCgLyr6yKmMB624y2K7Bhg2JrPiLovtGgA0ZExmxV0a4+mlpvgP+n5Ee/pPoj7nKapYGg0Xk49MLT3Hirsyk7yEwkcWkGO0tCpm1ycn0Bt7vkNvYsLnfY6ZNWK1OMQVjBGT9cTdxJc1FIjPocHh4g1CZAOU3PnR92jv4DTqV7VV0xAxmRV35WE+4KULANIMkLlj73FmeXQ9JtPiLm2Ys8gyQCarPLoWk9Vx979hXqUOcxb1GKAkrTw84QpPLqtzkOOunmHOYrsGyFSWR8djcjp9+uGxxMLfeoc5izdrgEy5PPrcs+fJ5f3/GEnM3+8eK38z4JtdoYlqh7dqAPCd3uPo40PTx8jldQ5csPy0M1Sq04Tp5a0Y8BYug17b9C+9wfx95JK6g+Fo5XVHoHieJrAVb8YAGPbv9524tM818xK5BGPAE6mO4oeVKzShWmzXgPf2/3DtgOuUk5yyO/j86Nl7UllpNzwAkU2raHd+0GsAq879MfE1X7gaJX92Bmmh/gJ++juTzErv2u03BhG980MrA3Z8qF3nni8Wn3AFy3OwfB5KLD9ENncOSaFua6Y/oV5K8Y0XyeY1aDU/aBnAqnN7Kn+XN1IWbL7CteaTIT4H2dVZ5HLoDmzA6rt+PCJyE7nlR8nuNfBFxRBtfqAZwKpzb7Rsg29c7g9GkF3dQSazuAWPgN9lE+DZAEdkl975QWlAqzp3jJT+kPsBDbNGCEthWPjK9ZEAZSH9qmd+AANYdT4cLz0OdX5QFbVtXOGKP1zbSpp1H1gwpzTguhHs+WG/Y+ZMqzpXCm8Sm8GFq7tIU2Mgl5u/Ez8Kz9BMIBS05gc11HWupitc+po0NRYms7Wt+CnxAkV8k6z5AUCrczUdgdI5XFabSBfjISU0ttPEK6meH7TqXE0oB/+4+FTzREYG/qbjNOFqwvzAxav0OqfQF6scIKcwNrLZ03eneKlKE62m3vcC7pB4khzeHJjg60/i+eAfmmgl9RhgHyn+BXcFcmjzAI+CnTTRSrYyAJa7ArGlbeSQ5kOrl6WtDDD0y1A9yGSkzbgUGjTxQJYB+M5QIYcxN5JC41kcki63Y4CdK1601A8psAG9eg2AhyUuKr5MuloDzX+T5+tH9RjgjVQOk27WwsRXiw/AKhLLAGewtEyaWxOwlIaT4uqrdKUBg/7C5a4sbXUa+NY4pDZgwFtA3Hh1O2libSiX0mQDur601WnIS2lggKV/JcICLKVx0eoFQy1tdRox3kK/DNmAqdDT8y87HJw32KxmbAAAAABJRU5ErkJggg==" height="64" width="64">
+                                </h2>
+            <h5 class="center">Ethash Based Coins</h5>
+            <p class="light">
+              We've got the best of best Ethash coins to be mined here, in Methpool. For more and higher mining profitability, we will help you to get high to the moon.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text">
+                                        <img src="data:image/png;base64,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" height="64" width="64">
+                                </h2>
+            <h5 class="center">Low Pool Fee</h5>
+            <p class="light">
+              We are not taking fees. Only you will be charged with TX and Geth fees to make the payment process to all miners easier and quicker.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="row">
+                <div class="col s4">
+                    <div class="card indigo darken-5">
+                        <div class="card-image center">
+                            <i class="material-icons large white-text">device_hub</i>
+                        </div>
+                        <div class="card-title center white-text">
+                            <span>Best Miners Community</span>
+                        </div>
+                        <div class="card-content center white-text">
+                            <span>From Miners. By Miners.</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                        <div class="card indigo darken-5">
+                            <div class="card-image center">
+                                <i class="material-icons large white-text">sentiment_very_satisfied</i>
+                            </div>
+                            <div class="card-title center white-text">
+                                <span>Best Pools Ever</span>
+                            </div>
+                            <div class="card-content center white-text">
+                               <span>For better profits.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card indigo darken-5">
+                            <div class="card-image center">
+                                 <i class="material-icons large white-text">payment</i>
+                            </div>
+                            <div class="card-title center white-text">
+                                <span>Without Pool Fees</span>
+                            </div>
+                            <div class="card-content center white-text">
+                                <span>To enjoy mining with Us.</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>-->
+  </div>
+  <div class="container">
+    <div class="row">
+      <hr>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="center-align">Quick Start</h2>
+  </div>
+
+  <div class="container" id="mining-labs">
+    <div class="row">
+      <div class="col s12">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="https://pbs.twimg.com/media/DVjxKzhU0AEsZDV.png" alt="" class="circle">
+            <span class="title"><b>Callisto Coin</b></span>
+            <p>
+              Price: $<span id="clo">0,0000</span> USD <br/> Web Wallet: <a href="https://ethereumproject.github.io/etherwallet/">ClassicEtherWallet</a> <br> Mining Pool: <a href="https://clo.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modalClo" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="https://avatars2.githubusercontent.com/u/39308933?s=200&v=4" alt="" class="circle">
+            <span class="title"> <b>Eos Classic Coin</b></span>
+            <p>
+              Price: $<span id="eosc">0,0000 USD</span> <br/> Web Wallet: <a href="https://www.myetherwallet.com/">MyEtherWallet</a> <br> Mining Pool: <a href="https://eosc.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modalEosc" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="https://www.cryptoground.com/images/coins/1252_DBIX.png" alt="" class="circle">
+            <span class="title"> <b>DubaiCoin</b> </span>
+            <p>
+              Price: $<span id="dbix">0,0000</span> USD <br/> Web Wallet: <a href="https://dbix.io/">Galaxy Wallet</a> <br> Mining Pool: <a href="https://dbix.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modaldbix" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="https://ubiqsmart.com/images/logo.svg" alt="" class="circle">
+            <span class="title"> <b>Ubiq Coin</b> </span>
+            <p>
+              Price: $<span id="ubq">0,0000</span> USD <br/> Web Wallet: <a href="https://www.myetherwallet.com/">MyEtherWallet</a> <br> Mining Pool: <a href="https://ubiq.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modalubq" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="https://pbs.twimg.com/profile_images/983226473061339137/Obc3PJKr_400x400.jpg" alt="" class="circle">
+            <span class="title"> <b>Ether Zero Coin</b> </span>
+            <p>
+              Price: $<span id="etz">0,0000</span> USD <br/> Web Wallet: <a href="https://wallet.etherzero.org/">EtherZero Wallet</a> <br> Mining Pool: <a href="http://etz.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modaletz" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="https://coinnext.net/wp-content/uploads/2017/12/expanse.png" alt="" class="circle">
+            <span class="title"><b>Expanse Coin</b> </span>
+            <p>
+              Price: $<span id="exp">0,0000</span> USD <br/> Web Wallet: <a href="https://www.myetherwallet.com/">MyEtherWallet</a> <br> Mining Pool: <a href="https://exp.methpool.com/">Start here</a>.
+            </p>
+            <a href="#modalexp" class="secondary-content modal-trigger"><i class="fas fa-cog"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer red darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">MΞTHPOOL MINING LAB</h5>
+          <p class="text-lighten-4">
+            By using the Methpool.com you accept all possible risks related to experimental software usage. The Pool owner can't compensate any irreversible losses but will do his best to prevent worst case.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Useful Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.cryptocompare.com/">CryptoCompare</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://coinmarketcal.com/">CoinMarketCal</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://coinmarketcap.com/">CoinMarketCap</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        MADE WITH <i class="fa fa-heart faa-pulse animated" style="color:#fff"></i> IN TUNISIA.
+        <span class="grey-text text-lighten-4 right" href="#!">© 2018 - Methpool, Lab.</span>
+      </div>
+    </div>
+  </footer>
+  <!-- EOSC Configuration -->
+  <div id="modalEosc" class="modal">
+    <div class="modal-content">
+      <h4>Eos Classic Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-eosc" type="text" class="validate">
+              <label for="wallet-eosc">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+
+  <!-- Callisto Configuration -->
+  <div id="modalClo" class="modal">
+    <div class="modal-content">
+      <h4>Callisto Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://ethereumproject.github.io/etherwallet/">https://ethereumproject.github.io/etherwallet/</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-clo" type="text" class="validate">
+              <label for="wallet-clo">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+  <!-- DubaiCoin Configuration -->
+  <div id="modaldbix" class="modal">
+    <div class="modal-content">
+      <h4>DubaiCoin Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://dbix.io/">https://dbix.io/</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-dbix" type="text" class="validate">
+              <label for="wallet-dbix">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+  <!-- ubiq Configuration -->
+  <div id="modalubq" class="modal">
+    <div class="modal-content">
+      <h4>UBIQ Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://www.myetherwallet.com/">https://www.myetherwallet.com//</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-ubq" type="text" class="validate">
+              <label for="wallet-ubq">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+  <!-- etz Configuration -->
+  <div id="modaletz" class="modal">
+    <div class="modal-content">
+      <h4>Ether Zero Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://wallet.etherzero.org/">https://wallet.etherzero.org/</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-etz" type="text" class="validate">
+              <label for="wallet-etz">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+  <!-- expanse Configuration -->
+  <div id="modalexp" class="modal">
+    <div class="modal-content">
+      <h4>Expanse Claymore Configuration</h4>
+      <div class="row">
+
+        <form class="col s12">
+          <h6 class="">1) Create a new wallet (<a href"https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>)</h6>
+          <h6>2) Paste your wallet public address in the next field.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="wallet-exp" type="text" class="validate">
+              <label for="wallet-exp">Paste Your Wallet Address Here</label>
+            </div>
+          </div>
+          <h6>3) Create a new .bat file for your claymore, and paste inside it the generated text.</h6>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea name="config" id="textarea" class="materialize-textarea config-text" placeholder="Claymore Configuration Line"></textarea>
+              <label for="textarea">Claymore Configuration</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="waves-effect waves-light btn generate"><i class="material-icons right">save</i>Generate File</a>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+      M.textareaAutoResize($('#textarea'));
+      $('.modal').modal();
+    });
+  </script>
+  <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
